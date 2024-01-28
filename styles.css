@@ -39,6 +39,9 @@ main{
   padding: 3rem 1rem;
   background-color: var(--white);
 }
+h1{
+font-size: 3rem;
+}
 li{
   list-style:none;
 
@@ -46,6 +49,11 @@ li{
 a{
   text-decoration: none;
   color:inherit;
+}
+/* Dry  */
+h1,h2{
+  margin-bottom: 1rem;
+  color:var(--headings)
 }
 /* Custom Styles */
 /* Header Styles */
@@ -102,9 +110,24 @@ header{
   color:var(--secondary)
 }
 /* Hero section */
+.hero-img-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.main-img-bg{
+  position:relative;
+  rotate:10deg;
+  width:200px;
+  height:200px;
+  background-color: var(--secondary);
+}
+
 
 .hero-img-container img{
   width:200px;
+  position: absolute;
+  background-color: var(--body-bg);
 }
 
 /* media queries */
