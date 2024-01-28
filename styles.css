@@ -110,6 +110,6 @@ header{
 
 .desktop-nav ul{
   display: flex;
-  gap:3 rem;
+  gap:3rem;
 }
 }
