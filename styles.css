@@ -30,6 +30,14 @@ svg{
   width:20px;
 }
 /* base styles */
+body{
+  background-color: var(--body-bg);
+
+}
+main{
+  margin-inline:1rem;
+  background-color: var(--white);
+}
 li{
   list-style:none;
 
@@ -91,6 +99,11 @@ header{
 
 .mobile-nav a:hover{
   color:var(--secondary)
+}
+/* Hero section */
+
+.hero-img-container img{
+  width:200px;
 }
 
 /* media queries */
