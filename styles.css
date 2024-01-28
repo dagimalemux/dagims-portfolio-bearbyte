@@ -20,4 +20,35 @@
     font-family: "Young Serif", serif;
     text-align: center;
   }
-  
+  #closeIcon,
+  .mobile-nav,
+  .desktop-nav{
+    display: none;
+  }
+img,
+svg{
+  width:20px;
+}
+/* Custom Styles */
+/* Header Styles */
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rm;
+  color:var(--header-text);
+  background-color: var(--primary);
+}
+
+.menu-btn {
+  background: none;
+  border:none;
+  height: 24px;
+  width: 24px;
+  fill:var(--header-text);
+  transition: fill 0.3s ease;
+}
+
+.menu-btn{
+  fill: var(--secondary)
+}
