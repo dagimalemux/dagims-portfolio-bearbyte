@@ -207,3 +207,14 @@ header{
   gap:3rem;
 }
 }
+/* Project section */
+
+.project-img-container{
+  width: 100%;
+  height: auto;
+}
+
+.project-img{
+  aspect-ratio: 16/9;
+  margin-bottom: 0.5rem;
+}
