@@ -39,8 +39,21 @@ main{
   padding: 3rem 1rem;
   background-color: var(--white);
 }
+section{
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
 h1{
 font-size: 3rem;
+line-height: 1;
+}
+
+h1,h2,h3{
+  font-weight: 400;
 }
 li{
   list-style:none;
@@ -54,6 +67,34 @@ a{
 h1,h2{
   margin-bottom: 1rem;
   color:var(--headings)
+}
+
+/* utility class */
+.btn{
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  color:var(--header-text);
+  box-shadow: 0 2px var(--secondary-shadow);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+  background-color: var(--secondary-shadow);
+}
+
+.section-square{
+  background-color:var(--primary);
+
+}
+
+.body-text{
+  
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 2;
+  color: var(--body-text);
+
 }
 /* Custom Styles */
 /* Header Styles */
@@ -115,6 +156,8 @@ header{
   justify-content: center;
   margin-bottom: 3rem;
 }
+
+
 .main-img-bg{
   position:relative;
   rotate:10deg;
@@ -122,15 +165,29 @@ header{
   height:200px;
   background-color: var(--secondary);
 }
+.hero-container p{
+  font-size: 1.2rem;
+  color:var(--secondary)
+}
 
+.hero-container p:last-of-type{
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
 
 .hero-img-container img{
   width:200px;
   position: absolute;
   background-color: var(--body-bg);
 }
+/*about section   */
 
+.about-container p{
+  margin-bottom: 1rem;
+  
+}
 /* media queries */
+
 @media (min-width: 1024px) {
   .menu-btn,
   .mobile-nav{
