@@ -86,3 +86,6 @@ header{
   fill:var(--header-text);
   transition: fill 0.3s ease;
 }
+.menu-btn{
+  fill: var(--secondary)
+}
