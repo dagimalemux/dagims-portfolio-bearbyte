@@ -21,7 +21,47 @@
   text-align: center;
 }
 #closeIcon,
-/* .mobile-nav, */
+/* .mobile-nav */
 .desktop-nav{
   display: none;
+}
+/* BASE STYLES */
+body{
+  background-color: var(--body-bg);
+
+}
+main{
+  
+  padding: 3rem 1rem;
+  background-color: var(--white);
+}
+section{
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+h1{
+font-size: 3rem;
+line-height: 1;
+}
+
+h1,h2,h3{
+  font-weight: 400;
+}
+li{
+  list-style:none;
+
+}
+
+h3{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+a{
+  text-decoration: none;
+  color:inherit;
 }
