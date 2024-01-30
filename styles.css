@@ -65,3 +65,24 @@ a{
   text-decoration: none;
   color:inherit;
 }
+
+/* HEADER STYLES */
+header{
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color:var(--header-text);
+  background-color: var(--primary);
+}
+
+.menu-btn {
+  cursor: pointer;
+  background: none;
+  border:none;
+  height: 24px;
+  width: 24px;
+  fill:var(--header-text);
+  transition: fill 0.3s ease;
+}
