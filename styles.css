@@ -118,6 +118,7 @@ header{
 .mobile-nav a:hover{
   color:var(--secondary)
 }
+
 /* HERO SECTION */
 .hero-img-container{
   display: flex;
@@ -152,4 +153,23 @@ header{
 
 .about-container p{
   margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .menu-btn,
+  .mobile-nav{
+    display: none;
+  }
+  .desktop-nav{
+    display:block;
+  }
+
+header{
+  margin-inline: 1rem;
+  padding-inline: 3rem;
+}
+
+.desktop-nav ul{
+  display: flex;
+  gap:3rem;
+}
 }
